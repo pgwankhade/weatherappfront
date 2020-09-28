@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@700&display=swap');
+
+body{
+  background-image: url('photo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Cormorant Upright', serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 731px) {
+  body {
+  background-image: url('photo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Cormorant Upright', serif;
+
+  }
+  .App {
+    text-align: center;
+    font-family: cursive;
+  }
+
+  .Head{
+    font-size: xx-small;
+  }
+}
+
